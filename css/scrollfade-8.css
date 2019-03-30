@@ -1,0 +1,55 @@
+/* DEVICES
+@media (max-width: 575px) {
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+*/
+
+
+body {
+    min-height: 900px;
+}
+
+/* fade out on scroll down
+-------------------------------------------------- */
+
+/* adding margin-bottom to fade div */
+.top {
+
+}
+
+/* adding margin-bottom to fade div */
+.gallery-image {
+  margin-bottom: 50px;
+}
+
+/* .gallery-section {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.gallery-section.visible {
+  opacity: 1;
+} */
+
+
+/* gallery div
+-------------------------------------------------- */
+
+/* gallery full-width nopadding on sm down */
+@media (max-width: 767px) {
+  .gallery-sm {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}

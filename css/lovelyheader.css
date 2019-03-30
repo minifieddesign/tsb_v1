@@ -1,0 +1,678 @@
+/* DEVICES
+@media (max-width: 575px) {
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+*/
+
+/* html body
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 991px) {
+}
+
+@media (min-width: 992px) {
+}
+
+header {
+  min-height: 66px;
+}
+
+footer {
+  height: 200px;
+  padding: 60px 0;
+  display: block;
+}
+
+
+
+
+/* tsb-logo-wrapper
+-------------------------------------------------- */
+@media screen and (max-width: 575px) {
+  .tsb-logo-wrapper  {
+    position: fixed;
+    left: calc(1 * (100% / 13));
+  }
+  .tsb-logo {
+      width: 25px;
+      height: auto;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .tsb-logo-wrapper  {
+    position: fixed;
+    left: calc(1 * (100% / 16));
+  }
+  .tsb-logo {
+      width: 25px;
+      height: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .tsb-logo-wrapper  {
+    position: fixed;
+    left: calc(1 * (100% / 17));
+    padding-top: 5px;
+  }
+
+  .tsb-logo {
+      width: 25px;
+      height: auto;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .tsb-logo-wrapper  {
+    position: fixed;
+    left: calc(1 * (100% / 11));
+    padding-top: 8px;
+    padding-left: .55%;
+  }
+    .tsb-logo {
+        width: 55px;
+        height: auto;
+    }
+}
+
+
+
+
+/* tsb-title: the space between
+   center with absolute positioning
+   md and up
+-------------------------------------------------- */
+.tsb-title {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  z-index: 99;
+  color: #800300 !important;
+}
+
+@media (max-width: 991px) {
+  .tsb-title {
+    top: 25px;
+  }
+}
+
+@media (min-width: 992px) {
+  .tsb-title {
+    top: 25px;
+  }
+}
+
+
+
+/* header-right-wrapper:
+   fixed right
+-------------------------------------------------- */
+.header-right-wrapper {
+  z-index: 99;
+}
+@media screen and (max-width: 575px) {
+  .header-right-wrapper  {
+    position: fixed;
+    right: calc(1 * (100% / 13));
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .header-right-wrapper  {
+    position: fixed;
+    right: calc(1 * (100% / 16));
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-right-wrapper  {
+    position: fixed;
+    right: calc(1 * (100% / 17));
+  }
+}
+
+@media (min-width: 992px) {
+  .header-right-wrapper  {
+    position: fixed;
+    right: calc(1 * (100% / 11));
+  }
+}
+
+
+
+/* Custom navbar-toggler:
+  md and down
+-------------------------------------------------- */
+.tsb-toggler-btn {
+    position: fixed;
+    /* top: 16px; */
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    /* margin: -15px 0 0 -15px; */
+    /* right: 0; */
+    padding: 15px 0 15px 15px;
+    cursor: pointer;
+    border: none;
+    z-index: 999;
+}
+
+
+.tsb-toggler-btn:focus,
+.tsb-toggler-btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+
+@media screen and (max-width: 575px) {
+  .tsb-toggler-btn  {
+    position: fixed;
+    right: calc(1 * (100% / 13));
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .tsb-toggler-btn  {
+    position: fixed;
+    right: calc(1 * (100% / 16));
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .tsb-toggler-btn  {
+    position: fixed;
+    right: calc(1 * (100% / 17));
+  }
+}
+
+@media (min-width: 992px) {
+  .tsb-toggler-btn  {
+    position: fixed;
+    right: calc(1 * (100% / 10));
+  }
+}
+
+
+/* Custom navbar-toggler non-toggler (expand-lg):
+  lg and up
+-------------------------------------------------- */
+.openbtn {
+  padding-right: 0;
+  padding-left: 2em;
+  border: none;
+  z-index: 99;
+}
+
+@media (max-width: 991px) {
+  .tsb-pagetitle {
+    margin-top: 75px;
+  }
+}
+
+@media (min-width: 992px) {
+  .openbtn {
+    position: fixed;
+    top: 33px;
+    right: calc(1 * (100% / 11));
+    /* padding-top: 10px; */
+  }
+
+  .tsb-pagetitle {
+    margin-top: 100px;
+  }
+}
+
+
+/* navbar: title
+-------------------------------------------------- */
+.tsb-title,
+.tsb-toggler,
+.tsb-toggler,
+.tsb-nav-text,
+.tsb-nav-text a,
+.tsb-nav-item,
+.tsb-nav-item a,
+.tsb-dropdown-item,
+.tsb-title-overlay,
+.tsb-pagetitle,
+.closebtn,
+.openbtn {
+  color: #800300 !important;
+  font-family: "ministry","helvetica neue", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 991px) {
+    .tsb-title,
+    .tsb-toggler,
+    .tsb-nav-text,
+    .tsb-nav-text a,
+    .tsb-nav-item,
+    .tsb-dropdown-item,
+    .tsb-title-overlay,
+    .tsb-pagetitle,
+    .closebtn,
+    .openbtn {
+      font-size: 9px;
+    }
+}
+
+@media (min-width: 992px) {
+  .tsb-title,
+  .tsb-toggler,
+  .tsb-nav-text,
+  .tsb-nav-text a,
+  .tsb-nav-item,
+  .tsb-dropdown-item,
+  .tsb-title-overlay,
+  .tsb-pagetitle,
+  .closebtn,
+  .openbtn {
+    font-size: 10px;
+  }
+}
+
+.tsb-toggler:hover,
+.tsb-toggler:active  a::after,
+
+.tsb-title:hover,
+.tsb-title:active  a::after,
+
+.tsb-nav-text:hover,
+.tsb-nav-text:active  a::after,
+
+.tsb-nav-item:hover,
+.tsb-nav-item:active  a::after,
+
+.tsb-nav-item a:hover,
+.tsb-nav-item a:active  a::after,
+
+.tsb-dropdown-toggle:hover,
+.tsb-dropdown-toggle:active  a::after,
+
+.tsb-dropdown-item:hover,
+.tsb-dropdown-item:active  a::after,
+
+.closebtn:hover,
+.closebtn:active  a::after {
+  color: #800300 !important;
+  font-family: "ministry","helvetica neue", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  text-decoration: none;
+  /* border-bottom: 2px #800300 solid;
+  padding-bottom: 3px;
+  padding-left: 0;
+  padding-right: 0; */
+
+}
+
+.tsb-title:hover,
+.tsb-title:active {
+  color: #800300 !important;
+  font-family: "ministry","helvetica neue", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+}
+
+/* navbar: dropdown
+-------------------------------------------------- */
+/* remove caret dropdown arrow */
+.dropdown-toggle::after {
+    display:none;
+}
+
+.tsb-dropdown-menu {
+  border: none;
+  background-color: transparent;
+}
+
+/* push content down when dropdown is open */
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: relative;
+}
+
+
+@media (max-width: 991px) {
+  /* .tsb-dropdown-toggle:active {
+    margin-top: 25px;
+  } */
+  .tsb-dropdown-menu {
+    /* width: 250px; */
+    /* margin-bottom: 5px; */
+  }
+
+}
+
+@media (min-width: 992px) {
+  /* .tsb-dropdown-toggle:active {
+    margin-top: 25px;
+  } */
+  .tsb-dropdown-menu {
+    width: 250px;
+    margin-bottom: 5px;
+  }
+}
+
+
+/* remove dropdown nav-item background on hover */
+.tsb-dropdown-item a:hover,
+.tsb-dropdown-item a:active,
+.tsb-dropdown-item:hover,
+.tsb-dropdown-item:active {
+  background-color: transparent!important;
+}
+
+.menu-level-2 {
+  padding-top: 25px;
+}
+
+
+
+/* navbar: nav-item hover states
+-------------------------------------------------- */
+.tsb-toggler:hover,
+.tsb-toggler:active  a::after,
+
+.tsb-nav-item:hover,
+.tsb-nav-item:active  a::after,
+
+.tsb-dropdown-toggle:hover,
+.tsb-dropdown-toggle:active  a::after,
+
+.tsb-dropdown-item:hover,
+.tsb-dropdown-item:active  a::after,
+
+.closebtn:hover,
+.closebtn:active  a::after {
+  color: #800300 !important;
+  font-family: "ministry","helvetica neue", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+}
+
+
+
+
+
+/* NAV OVERLAY
+  md and down
+-------------------------------------------------- */
+@media (max-width: 991px) {
+  .nav-overlay {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 99;
+      top: 0;
+      left: 0;
+      background-color: rgb(255,255,255);
+      background-color: rgba(255,255,255, 0.99);
+      overflow-x: hidden;
+      transition: 0.5s;
+  }
+
+  .nav-overlay-content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+  }
+
+  .nav-overlay a {
+      /* padding: 8px; */
+      text-decoration: none;
+      color: #800300;
+      display: block;
+      transition: 0.3s;
+  }
+
+  .nav-overlay a:hover,
+  .nav-overlay a:focus {
+      /* color: #f1f1f1; */
+  }
+
+  .nav-overlay .tsb-title-overlay {
+    position: absolute;
+    top: 16px;
+    padding: 15px 15px 15px 0;
+    /* margin-left: -10px; */
+  }
+
+  .nav-overlay .tsb-pagetitle {
+    position: absolute;
+    top:0;
+    /* margin-bottom: 75px; */
+  }
+
+  .nav-overlay .closebtn {
+      position: absolute;
+      top: 16px;
+  }
+  .closebtn {
+      /* position: absolute; */
+      -webkit-transition: all .3s;
+      transition: all .3s;
+      /* margin: 0 0 0 -15px; */
+      padding: 15px 0 15px 15px;
+      cursor: pointer;
+      border: none;
+      z-index: 99;
+  }
+
+  .sidebar {
+    margin-top: 125px;
+  }
+}
+
+
+
+@media screen and (max-width: 575px) {
+  .tsb-title-overlay  {
+    left: calc(1 * (100% / 13));
+  }
+
+  .nav-overlay-content {
+    padding-left: calc(1 * (100% / 12));
+  }
+
+  .closebtn  {
+    right: calc(1 * (100% / 13));
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .tsb-title-overlay  {
+    left: calc(1 * (100% / 15));
+  }
+
+  .nav-overlay-content {
+    padding-left: calc(1 * (100% / 15));
+  }
+
+  .closebtn  {
+    right: calc(1 * (100% / 13));
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .tsb-title-overlay  {
+    left: calc(1 * (100% / 17));
+  }
+  .nav-overlay-content {
+    padding-left: calc(1 * (100% / 17));
+  }
+  .closebtn  {
+    right: calc(1 * (100% / 17));
+  }
+}
+
+
+
+/* NAV OVERLAY
+  lg and up
+-------------------------------------------------- */
+@media (min-width: 992px) {
+  .tsb-title-overlay {
+    position: absolute;
+    left: 50px;
+    top: 16px;
+  }
+
+  .nav-overlay {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    z-index: 99;
+    color: #800300 !important;
+  }
+
+  .nav-overlay-content {
+      position: fixed;
+      width: 250px;
+      margin-top: 100px;
+      padding-left: 40px;
+  }
+
+  .nav-overlay-content {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1600px; /* or 950px */
+  }
+}
+
+/* sidebar nav
+  lg and up
+-------------------------------------------------- */
+@media (min-width: 992px) {
+  .sidebar  {
+    position: fixed;
+    left: calc(1 * (100% / 11));
+    top: 100px;
+    padding-top: 10px;
+    margin-left: -.15%;
+    padding-bottom: 16px;
+    z-index: 40;
+    opacity: 1;
+    -webkit-transition: opacity .6s ease;
+    transition: opacity .6s ease;
+    overflow: hidden;
+
+  }
+}
+
+
+
+
+/* Sticky footer
+-------------------------------------------------- */
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  /* height: 200px; */
+  /* line-height: px; /* Vertically center the text there */ */
+  /* background-color: #f5f5f5; */
+}
+
+
+
+@media (max-width: 991px) {
+  .tsb-footer {
+    /* padding-left: 18px;
+    padding-right: 18px; */
+  }
+}
+@media (min-width: 992px) {
+  .tsb-footer {
+    /* padding-left: 30px;
+    padding-right: 30px; */
+  }
+}
+
+.footer p,
+.footer-link,
+.footer-link a {
+  /* color: #800300 !important; */
+  color: #000 !important;
+  font-family: "ministry","helvetica neue", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: .1em;
+  line-height: 105%;
+}
+
+@media (max-width: 991px) {
+    .footer p,
+    .footer-link,
+    .footer-link a {
+      font-size: 9px;
+    }
+}
+
+@media (min-width: 992px) {
+  .footer p,
+  .footer-link,
+  .footer-link a {
+    font-size: 10px;
+  }
+}
+
+.footernav-links {
+  margin-bottom: 25px;
+}
+.footernav-copyr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer-link a,
+.footer-link a:hover {
+  cursor: pointer;
+}
+
+.footer-link:hover,
+.footer-link:active  a::after {
+  color: #800300 !important;
+  font-family: "ministry","helvetica neue", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  text-decoration: none;
+  /* letter-spacing: .25em; */
+  /* text-transform: uppercase; */
+  /* border-bottom: 2px #800300 solid;
+  padding-bottom: 3px;
+  padding-left: 0;
+  padding-right: 0; */
+}

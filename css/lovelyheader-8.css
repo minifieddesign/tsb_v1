@@ -1,0 +1,490 @@
+/* html body
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  /* margin-bottom: 60px; */
+}
+
+/* set a max-width for horizontal fluid layout and make it centered */
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1600px; /* or 950px */
+}
+
+.tsb-navbar{
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1600px; /* or 950px */
+}
+
+
+
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+/* .footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+} */
+
+
+
+
+
+/* logo / navbar-brand
+-------------------------------------------------- */
+.navbar-brand .tsb-logo {
+  position: fixed;
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-brand {
+    padding-left: -10px !important;
+  }
+  .tsb-logo {
+      width: 25px;
+      height: auto;
+  }
+}
+
+@media (min-width: 992px) {
+    .tsb-logo {
+        position: fixed;
+        margin-left: 30px !important;
+        width: 55px;
+        height: auto;
+    }
+}
+
+
+/* navbar title:
+   center with absolute positioning
+-------------------------------------------------- */
+.tsb-title {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  z-index: 99;
+  color: #800300 !important;
+}
+
+@media (max-width: 991px) {
+  .tsb-title {
+    top: 19px;
+  }
+}
+@media (min-width: 992px) {
+  .tsb-title {
+    top: 17px;
+  }
+}
+
+
+
+/* Custom navbar-toggler
+-------------------------------------------------- */
+.tsb-toggler-btn,
+.closebtn,
+.openbtn {
+  cursor: pointer;
+  border: none;
+  z-index: 99;
+  position: absolute;
+  top: 16px;
+  /* right: 50px; */
+  /* padding-top: 1em ; */
+  padding-right: 0;
+  /* padding-bottom: 1em ; */
+  padding-left: 2em;
+  /* text-align: right; */
+}
+
+.tsb-toggler-btn:focus,
+.tsb-toggler-btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+
+@media (max-width: 991px) {
+    .tsb-toggler-btn {
+      right: 15px;
+      top: 16px;
+      /* padding-top: 10px; */
+  }
+}
+
+@media (min-width: 992px) {
+  .tsb-toggler-btn {
+      right: 50px;
+      top: 16px;
+      /* padding-top: 10px; */
+  }
+  .openbtn {
+    right: 50px;
+    top: 26px;
+    /* padding-top: 10px; */
+  }
+}
+
+
+/* navbar: title
+-------------------------------------------------- */
+.tsb-title,
+.tsb-toggler,
+.tsb-toggler,
+.tsb-nav-item,
+.tsb-nav-item a,
+.tsb-dropdown-item,
+.tsb-title-overlay,
+.closebtn,
+.openbtn {
+  color: #800300 !important;
+  font-family: "ministry","helvetica neue", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 991px) {
+    .tsb-title,
+    .tsb-toggler,
+    .tsb-nav-item,
+    .tsb-dropdown-item,
+    .tsb-title-overlay,
+    .closebtn,
+    .openbtn {
+      font-size: 9px;
+    }
+}
+
+@media (min-width: 992px) {
+  .tsb-title,
+  .tsb-toggler,
+  .tsb-nav-item,
+  .tsb-dropdown-item,
+  .tsb-title-overlay,
+  .closebtn,
+  .openbtn {
+    font-size: 10px;
+  }
+}
+
+.tsb-toggler:hover,
+.tsb-toggler:active  a::after,
+
+.tsb-nav-item:hover,
+.tsb-nav-item:active  a::after,
+
+.tsb-nav-item a:hover,
+.tsb-nav-item a:active  a::after,
+
+.tsb-dropdown-toggle:hover,
+.tsb-dropdown-toggle:active  a::after,
+
+.tsb-dropdown-item:hover,
+.tsb-dropdown-item:active  a::after,
+
+.closebtn:hover,
+.closebtn:active  a::after {
+  color: #800300 !important;
+  font-family: "ministry","helvetica neue", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  /* border-bottom: 2px #800300 solid;
+  padding-bottom: 3px;
+  padding-left: 0;
+  padding-right: 0; */
+
+}
+
+.tsb-title:hover,
+.tsb-title:active {
+  color: #800300 !important;
+  font-family: "ministry","helvetica neue", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+}
+
+/* navbar: dropdown
+-------------------------------------------------- */
+/* remove caret dropdown arrow */
+.dropdown-toggle::after {
+    display:none;
+}
+
+.tsb-dropdown-menu {
+  border: none;
+}
+
+@media (max-width: 991px) {
+  /* .tsb-dropdown-toggle:active {
+    margin-top: 25px;
+  } */
+  .tsb-dropdown-menu {
+    /* width: 250px; */
+    margin-bottom: 25px;
+  }
+
+}
+
+@media (min-width: 992px) {
+  /* .tsb-dropdown-toggle:active {
+    margin-top: 25px;
+  } */
+  .tsb-dropdown-menu {
+    width: 250px;
+    margin-bottom: 25px;
+  }
+}
+
+
+/* remove dropdown nav-item background on hover */
+.tsb-dropdown-item a:hover,
+.tsb-dropdown-item a:active,
+.tsb-dropdown-item:hover,
+.tsb-dropdown-item:active {
+  background-color: transparent!important;
+}
+
+.menu-level-2 {
+  margin-top: 25px;
+}
+
+
+
+/* navbar: nav-item hover states
+-------------------------------------------------- */
+.tsb-toggler:hover,
+.tsb-toggler:active  a::after,
+
+.tsb-nav-item:hover,
+.tsb-nav-item:active  a::after,
+
+.tsb-dropdown-toggle:hover,
+.tsb-dropdown-toggle:active  a::after,
+
+.tsb-dropdown-item:hover,
+.tsb-dropdown-item:active  a::after,
+
+.closebtn:hover,
+.closebtn:active  a::after {
+  color: #800300 !important;
+  font-family: "ministry","helvetica neue", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  /* border-bottom: 2px #800300 solid;
+  padding-bottom: 3px;
+  padding-left: 0;
+  padding-right: 0; */
+
+}
+
+
+/* .closebtn {
+  color: #800300 !important;
+  font-family: "ministry","helvetica neue", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+} */
+
+
+
+/* NAV OVERLAY
+-------------------------------------------------- */
+@media (max-width: 991px) {
+  .nav-overlay {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 99;
+      top: 0;
+      left: 0;
+      background-color: rgb(255,255,255);
+      background-color: rgba(255,255,255, 0.9);
+      overflow-x: hidden;
+      transition: 0.5s;
+  }
+
+  .nav-overlay-content {
+      position: relative;
+      /* top: 25%; */
+      width: 100%;
+      /* text-align: center; */
+      /* margin-top: 30px; */
+      padding-top: 100px;
+      padding-right: 15px;
+  }
+
+  .nav-overlay a {
+      /* padding: 8px; */
+      text-decoration: none;
+      color: #800300;
+      display: block;
+      transition: 0.3s;
+  }
+
+  .nav-overlay a:hover,
+  .nav-overlay a:focus {
+      /* color: #f1f1f1; */
+  }
+
+  .nav-overlay .closebtn {
+      /* position: absolute; */
+      top: 28px;
+      right: 15px;
+  }
+
+  .tsb-title-overlay {
+    position: absolute;
+    left: 15px;
+    top: 20px;
+    /* padding-top: 10px; */
+  }
+
+}
+
+@media (min-width: 992px) {
+  .tsb-title-overlay {
+    position: absolute;
+    left: 50px;
+    top: 16px;
+    /* padding-top: 10px; */
+  }
+
+  .nav-overlay {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    /* text-align: left; */
+    z-index: 99;
+    color: #800300 !important;
+  }
+
+  .nav-overlay-content {
+      position: fixed;
+      /* top: 25%; */
+      width: 250px;
+      /* text-align: center; */
+      /* margin-top: 30px; */
+      margin-top: 100px;
+      padding-left: 40px;
+  }
+
+  .nav-overlay-content {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1600px; /* or 950px */
+  }
+}
+
+
+
+/* .tsb-mainnav .container-fluid {
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+} */
+
+
+
+/* Sticky footer
+-------------------------------------------------- */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 200px;
+  /* line-height: px; /* Vertically center the text there */ */
+  /* background-color: #f5f5f5; */
+}
+
+@media (max-width: 991px) {
+  .tsb-footer {
+    padding-left: 5px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 992px) {
+  .tsb-footer {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+.footer p,
+.footer-link,
+.footer-link a {
+  /* color: #800300 !important; */
+  color: #000 !important;
+  font-family: "ministry","helvetica neue", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: .1em;
+  line-height: 105%;
+}
+
+@media (max-width: 991px) {
+    .footer p,
+    .footer-link,
+    .footer-link a {
+      font-size: 9px;
+    }
+}
+
+@media (min-width: 992px) {
+  .footer p,
+  .footer-link,
+  .footer-link a {
+    font-size: 10px;
+  }
+}
+
+.footernav-links {
+  margin-bottom: 25px;
+}
+.footernav-copyr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer-link a,
+.footer-link a:hover {
+  cursor: pointer;
+}
+
+.footer-link:hover,
+.footer-link:active  a::after {
+  color: #800300 !important;
+  font-family: "ministry","helvetica neue", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: .25em;
+  /* text-transform: uppercase; */
+  /* border-bottom: 2px #800300 solid;
+  padding-bottom: 3px;
+  padding-left: 0;
+  padding-right: 0; */
+}
