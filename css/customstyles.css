@@ -1047,6 +1047,11 @@ img.img-border {
     max-width: 109%;
     margin: 0 -12% 0 -2%;
   }
+
+  .wp-gif {
+    max-width: 108%; 
+    margin-left: -4%; 
+  }
 }
 
 /* md  */
@@ -1074,6 +1079,11 @@ img.img-border {
     margin-left: 16%; 
   }
 
+  .wp-gif {
+    max-width: 100%; 
+    /* margin-left: 5.75%;  */
+    margin-left: 0; 
+  }
 }
 
 /* lg and up */
