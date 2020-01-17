@@ -1102,8 +1102,12 @@ img.img-border {
 
   .products-img-left, 
   .products-img-right {
-    max-width: 125%; 
-    margin: 0 -23% 0 -23%; 
+    max-width: 120%; 
+    margin: 0 -30% 0 -20%; 
+  }
+
+  .products-img-farright {
+    margin-right: -7%; 
   }
 
   .wp-gif {
