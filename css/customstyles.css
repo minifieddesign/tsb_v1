@@ -108,7 +108,14 @@ footer {
     margin-top: -73px;
   }
 
+  /* so */
+  .so-slogan {
+    margin-top: 50px;
+    padding-top: 73px;
+    margin-bottom: 75px;
+  }
 }
+
 @media screen and (min-width: 768px) {
  .section-top {
    margin-top: 55px;
@@ -1016,6 +1023,8 @@ img.img-border {
   margin: 4% 0;
 }
 
+
+
 /* xs */
 @media (max-width: 499px) {
   /* so  */
@@ -1025,7 +1034,7 @@ img.img-border {
   }
 
   .logos-gif {
-    padding-top: 5%; 
+    padding-top: 0; 
     margin-left: -6%; 
     max-width: 125%;
   }
@@ -1051,12 +1060,12 @@ img.img-border {
 @media (min-width: 500px) and (max-width:767px) {
   .logos-grid {
     max-width: 120%;
-    margin: -2% -2% 0 -3%;
+    margin: -2% -2% 0 -17%;
   }
   
   .logos-gif {
-    padding-top: 5%; 
-    margin-left: 1%; 
+    padding-top: 0; 
+    margin-left: 2%; 
     max-width: 115%;
   }
 
@@ -1097,6 +1106,11 @@ img.img-border {
   picture.gif {
     max-width: 109%;
     margin: 0 -12% 0 -2%;
+  }
+
+  .icons-img {
+    max-width: 102%; 
+    margin-left: -1%;
   }
 
   .wp-print {
