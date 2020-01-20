@@ -657,6 +657,7 @@ footer {
     position: absolute;
     top:0;
     /* margin-bottom: 75px; */
+    visibility:hidden;
   }
 
   .nav-overlay .closebtn {
@@ -1093,7 +1094,7 @@ img.img-border {
     max-width: 109%;
     margin: 0 -12% 0 -2%;
   }
-  
+
   .wp-print {
     margin: 0 -4%; 
     max-width: 107%;
