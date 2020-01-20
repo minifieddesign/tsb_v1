@@ -27,6 +27,7 @@ body {
   height: 100%;
   overflow-x: hidden;
   overflow-y: scroll;
+  max-width: 100%;
 }
 
 @media screen and (max-width: 767px) {
@@ -656,6 +657,7 @@ footer {
     position: absolute;
     top:0;
     /* margin-bottom: 75px; */
+    visibility:hidden;
   }
 
   .nav-overlay .closebtn {
@@ -1035,9 +1037,9 @@ img.img-border {
   }
 
   .notes-gif {
-    max-width: 125%;
-    margin-left: -12%; 
-    margin-top:-5%;
+    max-width: 135%;
+    margin-left: -17%;
+    margin-top: -3%;
   }
 }
 
@@ -1075,13 +1077,6 @@ img.img-border {
     margin: 0 0 0 -7%; 
   }
 
-
-
-  .notes-gif {
-    max-width: 110%;
-    margin-left: -10%;
-    margin-top: -3%;
-  }
 }
 
 /* xs, sm */
@@ -1100,12 +1095,6 @@ img.img-border {
     margin: 0 -12% 0 -2%;
   }
 
-  .products-img,
-  .downloads-two {
-    max-width: 118%;
-    margin-left: -9%;
-  }
-
   .wp-print {
     margin: 0 -4%; 
     max-width: 107%;
@@ -1115,6 +1104,23 @@ img.img-border {
     max-width: 120%; 
     margin-left: -10%; 
     margin-top: -2%; 
+  }
+
+  .products-img,
+  .downloads-two {
+    max-width: 118%;
+    margin-left: -9%;
+  }
+
+  .notes-gif {
+    max-width: 110%;
+    margin-left: -10%;
+    margin-top: -3%;
+  }
+
+  .alphabet-img {
+    max-width: 105%;
+    margin-left: -2%; 
   }
 
 }
