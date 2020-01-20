@@ -572,6 +572,7 @@ footer {
   background-color: transparent!important;
 }
 
+.menu-level-1,
 .menu-level-2,
 .menu-level-3 {
   padding-top: 25px;
@@ -673,7 +674,9 @@ footer {
   }
 
   .sidebar {
-    margin-top: 125px;
+    /* margin-top: 125px; */
+    margin-top: 60px;
+
   }
 }
 
@@ -994,10 +997,10 @@ p .tsb-body {
 
 /* Image
 -------------------------------------------------- */
-/*
+
 .gallery-feature {
   margin-bottom: 25px;
-} */
+}
 
 img.img-border {
   border: 1px solid #DDDEE0;
@@ -1009,6 +1012,7 @@ img.img-border {
 
 /* xs */
 @media (max-width: 499px) {
+  /* so  */
   .logos-grid {
     max-width: 125%;
     margin: -2% -30% 0 -2%;
@@ -1016,7 +1020,7 @@ img.img-border {
 
   .logos-gif {
     padding-top: 5%; 
-    margin-left:-7%; 
+    margin-left: -6%; 
     max-width: 125%;
   }
 
@@ -1031,8 +1035,9 @@ img.img-border {
   }
 
   .notes-gif {
-    max-width: 105%;
-    margin-left: -7%; 
+    max-width: 125%;
+    margin-left: -12%; 
+    margin-top:-5%;
   }
 }
 
@@ -1070,9 +1075,12 @@ img.img-border {
     margin: 0 0 0 -7%; 
   }
 
+
+
   .notes-gif {
     max-width: 110%;
-    margin-left: 0; 
+    margin-left: -10%;
+    margin-top: -3%;
   }
 }
 
@@ -1085,15 +1093,28 @@ img.img-border {
     margin: 8% 0;
   }
 
+  /* so  */
   img.gif, 
   picture.gif {
     max-width: 109%;
     margin: 0 -12% 0 -2%;
   }
 
+  .products-img,
+  .downloads-two {
+    max-width: 118%;
+    margin-left: -9%;
+  }
+
+  .wp-print {
+    margin: 0 -4%; 
+    max-width: 107%;
+  }
+
   .wp-gif {
-    max-width: 108%; 
-    margin-left: -4%; 
+    max-width: 120%; 
+    margin-left: -10%; 
+    margin-top: -2%; 
   }
 
 }
@@ -1108,6 +1129,7 @@ img.img-border {
     margin: 8% 0;
   }
 
+  /* so  */
   img.gif, 
   picture.gif {
     max-width: 100%; 
@@ -1116,35 +1138,54 @@ img.img-border {
 
   .logos-grid {
     max-width: 110%;
-    margin: -2% -5% 0 -3%;
+    margin: -2% -5% 0 -5%;
   }
 
   .logos-gif {
-    margin-left: 16%; 
-    margin-bottom: 28%;
+    margin-left: 14%; 
+    margin-bottom: 0;
   }
 
-  .products-img-left, 
-  .products-img-right {
-    max-width: 122%; 
-    margin: 0 -35% 0 -25%; 
-  }
-
-  .products-img-farright {
-    margin-right: -7%; 
+  .wp-print {
+    margin: 0 -4%; 
+    max-width: 107%;
   }
 
   .wp-gif {
+    max-width: 112%; 
+    margin-left: -5%; 
+    margin-bottom: -2%; 
+  }
+
+  .products-img {
+    max-width: 109%;
+    margin-left: -5%;
+  }
+  /* .products-img-left, 
+  .products-img-right {
+    max-width: 125%;
+    margin: 0 -5% 0 -20%;
+  } */
+
+  .downloads-cover {
+    max-width: 110%; 
+    margin: 0 0 0 -13%;
+  }
+
+  .downloads-three {
     max-width: 100%; 
-    /* margin-left: 5.75%;  */
-    margin-left: 0; 
+    margin: 0 0 0 0;
   }
 
   .notes-gif {
-    max-width: 100%;
+    max-width: 115%;
     margin-left: -10%; 
   }
 
+  .alphabet-img {
+    max-width: 105%;
+    margin-left: -2%; 
+  }
 
 }
 
@@ -1155,20 +1196,64 @@ img.img-border {
     margin: 8% 0;
   }
 
+  /* so */
+  .logos-grid {
+    max-width: 110%;
+    margin: -2% -5% 0 -5%;
+  }
+
   .logos-gif {
     margin-left: 20%; 
   }
 
-  .products-img-left, 
+
+  .wp-print {
+    margin: 0 -4%; 
+    max-width: 108%;
+  }
+
+  .wp-gif {
+    max-width: 113%; 
+    margin-left: -5%; 
+    margin-bottom: -2%; 
+  }
+  
+  .products-img {
+    max-width: 110%;
+    margin-left: -6%;
+  }
+
+  /* .products-img-farright {
+    margin-right: 2%; 
+  } */
+  /* .products-img-left, 
   .products-img-right {
     max-width: 120%; 
     margin: 0; 
+  } */
+
+  .downloads-img {
+    max-width: 100%; 
+    margin: 0 -5% 0 17%;
+  }
+
+  .downloads-two {
+    max-width: 110%; 
+    margin: 0 0 0 0%;
+  }
+
+  .notes-gif {
+    max-width: 135%;
+    margin-left: -17%;
+    margin-top: -2%;
   }
 
 
-  .products-img-farright {
-    margin-right: 2%; 
+  .alphabet-img {
+    max-width: 105%;
+    margin-left: -2%; 
   }
+
 }
 
 @media (min-width: 1200px) {
@@ -1186,8 +1271,5 @@ img.img-border {
   margin-right: -5%;
 }
 
-.negative-x {
-  margin: 0 -3%; 
-  max-width: 106%;
-}
+
 
