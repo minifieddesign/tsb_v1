@@ -133,6 +133,13 @@ footer {
      height: 100vh !important;
      margin-top: -110px;
    }
+
+     /* so */
+  .so-slogan {
+    margin-top: 55px;
+    padding-top: 110px;
+    margin-bottom: 125px;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -1192,8 +1199,8 @@ img.img-border {
   } */
 
   .downloads-cover {
-    max-width: 110%; 
-    margin: 0 0 0 -13%;
+    max-width: 115%; 
+    margin: 0 0 0 -1%;
   }
 
   .downloads-three {
@@ -1202,8 +1209,8 @@ img.img-border {
   }
 
   .notes-gif {
-    max-width: 115%;
-    margin-left: -10%; 
+    max-width: 130%;
+    margin-left: -15%; 
   }
 
   .alphabet-img {
