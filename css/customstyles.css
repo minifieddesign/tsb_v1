@@ -136,9 +136,9 @@ footer {
 
      /* so */
   .so-slogan {
-    margin-top: 55px;
+    margin-top: 75px;
     padding-top: 110px;
-    margin-bottom: 125px;
+    /* margin-bottom: 125px; */
   }
 }
 
@@ -1234,7 +1234,8 @@ img.img-border {
   }
 
   .logos-gif {
-    margin-left: 20%; 
+    margin-left: -17%;
+    max-width: 115%;
   }
 
 
@@ -1268,14 +1269,24 @@ img.img-border {
     margin: 0 -5% 0 17%;
   }
 
-  .downloads-two {
-    max-width: 110%; 
-    margin: 0 0 0 0%;
+  .downloads-cover {
+    max-width: 120%; 
+    margin: 0 0 0 -13%;
   }
 
+  .downloads-three {
+    max-width: 105%; 
+    margin: 0 0 0 -3%;
+  }
+
+  /* .downloads-two {
+    max-width: 110%; 
+    margin: 0 0 0 0%;
+  } */
+
   .notes-gif {
-    max-width: 135%;
-    margin-left: -17%;
+    max-width: 124%;
+    margin-left: -4%;
     margin-top: -2%;
   }
 
