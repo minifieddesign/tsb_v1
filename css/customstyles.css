@@ -1234,7 +1234,7 @@ img.img-border {
   }
 
   .logos-gif {
-    margin-left: -17%;
+    margin-left: -7%;
     max-width: 115%;
   }
 
@@ -1270,13 +1270,13 @@ img.img-border {
   }
 
   .downloads-cover {
-    max-width: 120%; 
-    margin: 0 0 0 -13%;
+    max-width: 115%;
+    margin: 0 0 0 -6%;
   }
 
   .downloads-three {
-    max-width: 105%; 
-    margin: 0 0 0 -3%;
+    max-width: 100%;
+    margin: 0 0 0 -1.5%;
   }
 
   /* .downloads-two {
@@ -1285,8 +1285,8 @@ img.img-border {
   } */
 
   .notes-gif {
-    max-width: 124%;
-    margin-left: -4%;
+    max-width: 121%;
+    margin-left: -3%;
     margin-top: -2%;
   }
 
@@ -1303,6 +1303,35 @@ img.img-border {
     /* margin: 15px 0; */
     margin: 8% 0;
   }
+
+  /* so */
+  .logos-grid {
+    max-width: 110%;
+    margin: -2% -5% 0 -5%;
+  }
+
+  .logos-gif {
+    margin-left: -5%;
+    max-width: 115%;
+  }
+
+  
+  .products-img {
+    max-width: 102%;
+    margin-left: 0%;
+  }
+
+  .downloads-cover {
+    max-width: 110%; 
+    margin: 0 0 0 -5%;
+  }
+
+  .notes-gif {
+    max-width: 122%;
+    margin-left: -4%;
+    margin-top: -2%;
+  }
+
 }
 
 .image-shadow-left {
