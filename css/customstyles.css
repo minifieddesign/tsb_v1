@@ -60,14 +60,14 @@ footer {
     margin: 0;
   }
   .full-width-left {
-    padding-left: 0;
+    /* padding-left: 0;
     padding-right: 0;
-    margin-right: 0;
+    margin-right: 0; */
   }
   .full-width-right {
-    padding-left: 0;
+    /* padding-left: 0;
     padding-right: 0;
-    margin-left: 0;
+    margin-left: 0; */
   }
 }
 
