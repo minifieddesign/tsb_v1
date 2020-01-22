@@ -53,8 +53,26 @@ footer {
   display: block;
 }
 
-/* full-width on mobile */
-@media screen and (max-width: 767px) {
+/* full-width on xs */
+@media screen and (max-width: 575px) {
+  .full-width {
+    padding: 0;
+    margin: 0;
+  }
+  .full-width-left {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+  }
+  .full-width-right {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+  }
+}
+
+/* full-width on sm */
+@media screen (min-width: 576px) and (max-width: 767px) {
   .full-width {
     padding: 0;
     margin: 0;
