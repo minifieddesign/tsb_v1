@@ -1311,8 +1311,8 @@ img.img-border {
 
   /* so */
   .logos-grid {
-    max-width: 110%;
-    margin: -2% -5% 0 -5%;
+    max-width: 105%;
+    margin: 0 0 0 -4%;
   }
 
   .logos-gif {
@@ -1322,7 +1322,7 @@ img.img-border {
 
   
   .products-img {
-    max-width: 102%;
+    max-width: 100%;
     margin-left: 0%;
   }
 
