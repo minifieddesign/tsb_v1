@@ -1141,8 +1141,8 @@ img.img-border {
   }
 
   .icons-img {
-    max-width: 102%; 
-    margin-left: -1%;
+    max-width: 101%; 
+    margin-left: 0%;
   }
 
   .wp-print {
