@@ -594,7 +594,7 @@ footer {
 .menu-level-1,
 .menu-level-2,
 .menu-level-3 {
-  padding-top: 25px;
+  padding-top: 20px;
 }
 
 
@@ -639,7 +639,7 @@ footer {
       top: 0;
       left: 0;
       background-color: rgb(255,255,255);
-      background-color: rgba(255,255,255, 0.99);
+      background-color: rgba(255,255,255, 0.9);
       overflow-x: hidden;
       transition: 0.5s;
   }
@@ -662,6 +662,10 @@ footer {
   .nav-overlay a:hover,
   .nav-overlay a:focus {
       /* color: #f1f1f1; */
+  }
+
+  .navbar-nav .dropdown-menu {
+    display: none;
   }
 
   .nav-overlay .tsb-title-overlay {
@@ -695,7 +699,7 @@ footer {
 
   .sidebar {
     /* margin-top: 125px; */
-    margin-top: 60px;
+    margin-top: 82px;
 
   }
 }
@@ -708,7 +712,7 @@ footer {
   }
 
   .nav-overlay-content {
-    padding-left: calc(1 * (100% / 12));
+    padding-left: calc(1 * (100% / 13));
   }
 
   .closebtn  {
@@ -718,11 +722,11 @@ footer {
 
 @media screen and (min-width: 576px) {
   .tsb-title-overlay  {
-    left: calc(1 * (100% / 15));
+    left: calc(1 * (100% / 16));
   }
 
   .nav-overlay-content {
-    padding-left: calc(1 * (100% / 15));
+    padding-left: calc(1 * (100% / 16));
   }
 
   .closebtn  {
@@ -823,6 +827,7 @@ footer {
 @media (min-width: 992px) {
   .tsb-footer {
     margin-top: 100px;
+    background-color: #fff;
     /* padding-left: 30px;
     padding-right: 30px; */
   }
