@@ -108,7 +108,14 @@ footer {
     margin-top: -73px;
   }
 
+  /* so */
+  .so-slogan {
+    margin-top: 50px;
+    padding-top: 73px;
+    margin-bottom: 75px;
+  }
 }
+
 @media screen and (min-width: 768px) {
  .section-top {
    margin-top: 55px;
@@ -126,6 +133,13 @@ footer {
      height: 100vh !important;
      margin-top: -110px;
    }
+
+     /* so */
+  .so-slogan {
+    margin-top: 75px;
+    padding-top: 110px;
+    /* margin-bottom: 125px; */
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -580,7 +594,7 @@ footer {
 .menu-level-1,
 .menu-level-2,
 .menu-level-3 {
-  padding-top: 25px;
+  padding-top: 20px;
 }
 
 
@@ -625,7 +639,7 @@ footer {
       top: 0;
       left: 0;
       background-color: rgb(255,255,255);
-      background-color: rgba(255,255,255, 0.99);
+      background-color: rgba(255,255,255, 0.9);
       overflow-x: hidden;
       transition: 0.5s;
   }
@@ -648,6 +662,10 @@ footer {
   .nav-overlay a:hover,
   .nav-overlay a:focus {
       /* color: #f1f1f1; */
+  }
+
+  .navbar-nav .dropdown-menu {
+    display: none;
   }
 
   .nav-overlay .tsb-title-overlay {
@@ -681,7 +699,7 @@ footer {
 
   .sidebar {
     /* margin-top: 125px; */
-    margin-top: 60px;
+    margin-top: 82px;
 
   }
 }
@@ -694,7 +712,7 @@ footer {
   }
 
   .nav-overlay-content {
-    padding-left: calc(1 * (100% / 12));
+    padding-left: calc(1 * (100% / 13));
   }
 
   .closebtn  {
@@ -704,11 +722,11 @@ footer {
 
 @media screen and (min-width: 576px) {
   .tsb-title-overlay  {
-    left: calc(1 * (100% / 15));
+    left: calc(1 * (100% / 16));
   }
 
   .nav-overlay-content {
-    padding-left: calc(1 * (100% / 15));
+    padding-left: calc(1 * (100% / 16));
   }
 
   .closebtn  {
@@ -809,6 +827,7 @@ footer {
 @media (min-width: 992px) {
   .tsb-footer {
     margin-top: 100px;
+    background-color: #fff;
     /* padding-left: 30px;
     padding-right: 30px; */
   }
@@ -1016,6 +1035,8 @@ img.img-border {
   margin: 4% 0;
 }
 
+
+
 /* xs */
 @media (max-width: 499px) {
   /* so  */
@@ -1025,7 +1046,7 @@ img.img-border {
   }
 
   .logos-gif {
-    padding-top: 5%; 
+    padding-top: 0; 
     margin-left: -6%; 
     max-width: 125%;
   }
@@ -1051,12 +1072,12 @@ img.img-border {
 @media (min-width: 500px) and (max-width:767px) {
   .logos-grid {
     max-width: 120%;
-    margin: -2% -2% 0 -3%;
+    margin: -2% -2% 0 -17%;
   }
   
   .logos-gif {
-    padding-top: 5%; 
-    margin-left: 1%; 
+    padding-top: 0; 
+    margin-left: 2%; 
     max-width: 115%;
   }
 
@@ -1097,6 +1118,11 @@ img.img-border {
   picture.gif {
     max-width: 109%;
     margin: 0 -12% 0 -2%;
+  }
+
+  .icons-img {
+    max-width: 102%; 
+    margin-left: -1%;
   }
 
   .wp-print {
@@ -1178,8 +1204,8 @@ img.img-border {
   } */
 
   .downloads-cover {
-    max-width: 110%; 
-    margin: 0 0 0 -13%;
+    max-width: 115%; 
+    margin: 0 0 0 -1%;
   }
 
   .downloads-three {
@@ -1188,8 +1214,8 @@ img.img-border {
   }
 
   .notes-gif {
-    max-width: 115%;
-    margin-left: -10%; 
+    max-width: 130%;
+    margin-left: -15%; 
   }
 
   .alphabet-img {
@@ -1213,7 +1239,8 @@ img.img-border {
   }
 
   .logos-gif {
-    margin-left: 20%; 
+    margin-left: -7%;
+    max-width: 115%;
   }
 
 
@@ -1247,14 +1274,24 @@ img.img-border {
     margin: 0 -5% 0 17%;
   }
 
-  .downloads-two {
-    max-width: 110%; 
-    margin: 0 0 0 0%;
+  .downloads-cover {
+    max-width: 115%;
+    margin: 0 0 0 -6%;
   }
 
+  .downloads-three {
+    max-width: 100%;
+    margin: 0 0 0 -1.5%;
+  }
+
+  /* .downloads-two {
+    max-width: 110%; 
+    margin: 0 0 0 0%;
+  } */
+
   .notes-gif {
-    max-width: 135%;
-    margin-left: -17%;
+    max-width: 121%;
+    margin-left: -3%;
     margin-top: -2%;
   }
 
@@ -1271,6 +1308,35 @@ img.img-border {
     /* margin: 15px 0; */
     margin: 8% 0;
   }
+
+  /* so */
+  .logos-grid {
+    max-width: 110%;
+    margin: -2% -5% 0 -5%;
+  }
+
+  .logos-gif {
+    margin-left: -5%;
+    max-width: 115%;
+  }
+
+  
+  .products-img {
+    max-width: 102%;
+    margin-left: 0%;
+  }
+
+  .downloads-cover {
+    max-width: 110%; 
+    margin: 0 0 0 -5%;
+  }
+
+  .notes-gif {
+    max-width: 122%;
+    margin-left: -4%;
+    margin-top: -2%;
+  }
+
 }
 
 .image-shadow-left {
