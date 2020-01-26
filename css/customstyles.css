@@ -523,7 +523,8 @@ footer {
 .tsb-nav-text:hover,
 .tsb-nav-text:active  a::after,
 
-.tsb-nav-item .active,
+.tsb-nav-item .active, 
+.tsb-nav-item a.active,
 .tsb-nav-item:hover,
 .tsb-nav-item:active  a::after,
 
