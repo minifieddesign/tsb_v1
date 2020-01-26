@@ -523,8 +523,7 @@ footer {
 .tsb-nav-text:hover,
 .tsb-nav-text:active  a::after,
 
-.tsb-nav-item .active, 
-.tsb-nav-item a.active,
+.tsb-nav-item .active,
 .tsb-nav-item:hover,
 .tsb-nav-item:active  a::after,
 
@@ -1053,7 +1052,7 @@ img.img-border {
 }
 
 .gallery-image-lg {
-  margin: 3.5% 0;
+  margin: 4% 0;
 }
 
 .image-shadow-left {
