@@ -705,6 +705,14 @@ html {
        display: block;
        transition: 0.3s;
    }
+
+   /* .nav-overlay a:active > footer.footer {
+     display: none; 
+     visibility: hidden;
+     height:0;
+   } */
+
+
  
    /* .nav-overlay a:hover,
    .nav-overlay a:focus {
