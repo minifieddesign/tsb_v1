@@ -5,5 +5,5 @@
   }
   function closeNav() {
       document.getElementById("navOverlay").style.width = "0%";
-      $('#footer').css('display', 'normal');
+      $('#footer').css('display', 'block');
   }
