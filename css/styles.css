@@ -1000,6 +1000,7 @@ html {
      p a,
      .tsb-h1,
      .tsb-h2,
+     .tsb-h3,
      .tsb-figure-caption,
      .tsb-figure-caption a {
        font-size: 9px;
@@ -1011,6 +1012,7 @@ html {
      p a,
      .tsb-h1,
      .tsb-h2,
+     .tsb-h3,
      .tsb-figure-caption,
      .tsb-figure-caption a {
      font-size: 10px;
@@ -1033,7 +1035,18 @@ html {
    text-decoration: none;
  }
  
- 
+ .tsb-body.city {
+   font-style: italic;
+   /* opacity:.7; */
+
+   /* font-family: "ministry","helvetica neue", sans-serif;
+   font-style: normal;
+   font-weight: 300;
+   letter-spacing: .25em;
+   text-transform: uppercase;
+   line-height: 175%; */
+ }
+
  .tsb-figure {
    margin: 35px 0;
  }
