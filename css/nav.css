@@ -105,7 +105,7 @@ z-index: 99;
     .nav-text,
     .nav-item,
     .nav-link {
-      font-size: 9px;
+      font-size: .6rem;
     }
 }
 
@@ -113,7 +113,7 @@ z-index: 99;
   .nav-text,
   .nav-item,
   .nav-link {
-    font-size: 11px;
+    font-size: .7rem;
   }
 }
 

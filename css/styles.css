@@ -35,9 +35,7 @@ html {
    overflow-y: hidden;
  }
 
-.btn:focus,
 .btn:active, 
-.a:focus, 
 .a:active {
    outline: none !important;
    box-shadow: none;
@@ -502,7 +500,7 @@ html {
      .tsb-pagetitle,
      .closebtn,
      .openbtn {
-       font-size: 9px;
+       font-size: .6rem;
      }
  }
  
@@ -517,7 +515,7 @@ html {
    .tsb-pagetitle,
    .closebtn,
    .openbtn {
-     font-size: 10px;
+     font-size: .7rem;
    }
  }
  
@@ -904,7 +902,7 @@ html {
      .footer p,
      .footer-link,
      .footer-link a {
-       font-size: 9px;
+       font-size: .7rem;
      }
  }
  
@@ -912,7 +910,7 @@ html {
    .footer p,
    .footer-link,
    .footer-link a {
-     font-size: 10px;
+     font-size: .7rem;
    }
  }
  
@@ -1003,7 +1001,7 @@ html {
      .tsb-h3,
      .tsb-figure-caption,
      .tsb-figure-caption a {
-       font-size: 9px;
+       font-size: .6rem;
      }
  }
  
@@ -1015,7 +1013,7 @@ html {
      .tsb-h3,
      .tsb-figure-caption,
      .tsb-figure-caption a {
-     font-size: 10px;
+     font-size: .7rem;
    }
  }
  
